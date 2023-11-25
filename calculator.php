@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
+    <form action="calculator.php" method="get">
         <input type="number" name="num1" value="<?php echo $_GET["num1"]?>"> <br>
         <input type="number" name="num2" value="<?php echo $_GET["num2"]?>"> <br>
 
