@@ -1,0 +1,14 @@
+<?php 
+    $data = json_decode(file_get_contents('data.json'), true);
+?>
+
+<h1>List of People</h1>
+<ul>
+    <?php 
+        foreach($data as $id => $d){
+            echo "<li><a href ='show.php?id=" . $id . "'>" . $d['fullname'] . "</a><?li>";
+        }
+    ?>
+</ul>
+
+<a href='native.php'>Add new person</a>
