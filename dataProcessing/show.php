@@ -15,5 +15,5 @@ Email: <?= $data[$id]['email'] ?>
 <br>
 Age: <?= $data[$id]['age'] ?>
 <br>
-<a href="modify.php?id= <?= $id ?>">Modify data</a><br>
-<a href='delete.php?id= <?= $id ?>'>Delete data</a>
+<a href="modify.php?id=<?= $id ?>">Modify data</a><br>
+<a href='delete.php?id=<?= $id ?>'>Delete data</a>

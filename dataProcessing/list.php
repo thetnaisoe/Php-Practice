@@ -6,7 +6,7 @@
 <ul>
     <?php 
         foreach($data as $id => $d){
-            echo "<li><a href ='show.php?id=" . $id . "'>" . $d['fullname'] . "</a><?li>";
+            echo "<li><a href = 'show.php?id=" . $id . "'>" . $d['fullname'] . "</a><?li>";
         }
     ?>
 </ul>
