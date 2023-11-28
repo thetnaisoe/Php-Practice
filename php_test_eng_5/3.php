@@ -12,6 +12,7 @@
             'fullname' => 'Soe Thet Naing',
             'count' => rand(1, 100)
         ];
+        
         $data[] = $name;
         file_put_contents('3.json', json_encode($data, JSON_PRETTY_PRINT));
     }
